@@ -1,3 +1,193 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
 
+body {
+	padding-left: 5% ;
+	padding-right: 5% ;
+	font-family: 'Titillium Web', sans-serif;
+}
+h1, h2 {
+	letter-spacing: 3px;
+}
+.top-nav {
+/*border: 1px solid black; */
+	padding: 10px;
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.top-nav a {
+	color: grey;
+	text-decoration: none;
+	font-size: 1.0625em;
+	font-family: cursive;
+}
+.a-tag {
+	display: flex;
+	justify-content: space-around;
+	width: 65%;
+}
+
+
+
+.sec-1 {
+	border-bottom: 2px solid black;
+	margin-bottom: 30px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 15px;
+
+}
+.sec-1 h1 {
+	font-size: 55px;
+	font-family: 'Bangers', cursive;
+	margin-bottom: 20px;
+}
+.sec-1 button {
+	height: 30px;
+	width: 140px;
+	margin-right: 27%;
+	margin-left: 27%;
+	background-color: white;
+	border: 1.5px solid black;
+	border-radius: 4px;
+	
+}
+.sec-1 button:hover {
+	background-color: lightgrey;
+}
+.sec-1 div {
+	
+	width: 300px;
+	margin-left: 30px;
+	margin-right: 30px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	
+}
+h2 {
+	font-family: 'Bangers', cursive;
+}
+.sec-2 div {
+	/*border: 1px solid black;*/
+
+}
+.sub-sec-1  {
+	width: 100%;
+	margin: 0% auto;
+	display: flex;
+	justify-content: space-between;
+
+
+}
+.sub-sec-1 div {
+	padding: 10px;
+	
+}
+#sub-sec-2 {
+	border-bottom: 2px solid black;
+}
+
+.middle-img {
+	margin: 0% auto;
+	 width: 100%;
+  height: auto;
+	display: flex;
+	justify-content: center;
+	align-content:center;
+}
+footer h5 {
+	font-family: 'Bangers', cursive;
+	font-size: 17px;
+	margin-bottom: 10px;
+}
+
+#center {
+	margin: 0% auto;
+	display: flex;
+	justify-content: center;
+
+}
+
+/*.sub-sec-2 {
+		width: 100%;
+	margin: 0% auto;
+	display: flex;
+	justify-content: space-between;
+}*/
+
+
+/*media q's bellow*/
+
+
+
+@media (max-width: 800px){
+
+body {
+	/*background-color: #ff9999;*/
+	padding-left: 2.5% ;
+	padding-right: 2.5% ;
+}
+
+
+
+nav {
+	display: flex;
+	flex-direction: column-reverse;
+}
+.a-tag {
+	width: 100%;
+}
+nav img {
+	margin-bottom: 30px;
+}
+
+.img1 {
+	display: none;
+}
+button {
+	margin-bottom: 45px;
+}
+
+
+} 
+
+
+
+
+
+@media (max-width: 500px){
+
+
+body {
+	/*background-color: #99bbff; */
+}
+.a-tag {
+	display: flex;
+	flex-direction: column;
+	width: 485px;
+}
+.a-tag a {
+	border: 1px solid lightgrey;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	border-left: none;
+	border-right: none;
+	
+}
+.sub-sec-1 {
+	margin: 0% auto;
+	display: flex;
+	flex-direction: column;
+}
+
+
+}
+	
+
+
 
